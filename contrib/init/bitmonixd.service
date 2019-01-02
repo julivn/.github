@@ -1,0 +1,22 @@
+[Unit]
+Description=Bitmonix's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitmonixcore
+Group=bitmonixcore
+
+Type=forking
+PIDFile=/var/lib/bitmonixd/bitmonixd.pid
+ExecStart=/usr/bin/bitmonixd -daemon -pid=/var/lib/bitmonixd/bitmonixd.pid \
+-conf=/etc/bitmonixcore/bitmonix.conf -datadir=/var/lib/bitmonixd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

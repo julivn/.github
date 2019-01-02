@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitmonix_bg.qm</file>
+        <file alias="de">locale/bitmonix_de.qm</file>
+        <file alias="en">locale/bitmonix_en.qm</file>
+        <file alias="es">locale/bitmonix_es.qm</file>
+        <file alias="fi">locale/bitmonix_fi.qm</file>
+        <file alias="fr">locale/bitmonix_fr.qm</file>
+        <file alias="it">locale/bitmonix_it.qm</file>
+        <file alias="ja">locale/bitmonix_ja.qm</file>
+        <file alias="nl">locale/bitmonix_nl.qm</file>
+        <file alias="pl">locale/bitmonix_pl.qm</file>
+        <file alias="pt">locale/bitmonix_pt.qm</file>
+        <file alias="ru">locale/bitmonix_ru.qm</file>
+        <file alias="sk">locale/bitmonix_sk.qm</file>
+        <file alias="sv">locale/bitmonix_sv.qm</file>
+        <file alias="vi">locale/bitmonix_vi.qm</file>
+        <file alias="zh_CN">locale/bitmonix_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitmonix_zh_TW.qm</file>
+    </qresource>
+</RCC>

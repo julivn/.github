@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitmonix Core
+Comment=Bitmonix P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Bitmonix peer-to-peer Netzwerk
+Comment[fr]=Bitmonix, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bitmonix, eşten eşe kriptografik sanal para birimi
+Exec=bitmonix-qt %u
+Terminal=false
+Type=Application
+Icon=bitmonix128
+MimeType=x-scheme-handler/bitmonix;
+Categories=Office;Finance;
